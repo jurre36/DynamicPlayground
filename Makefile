@@ -1,6 +1,8 @@
 ARCHS := arm64
 PACKAGE_FORMAT := ipa
 TARGET := iphone:clang:latest:16.0
+FRAMEWORKS = UIKit CoreGraphics SpringBoardFoundation
+
 
 include $(THEOS)/makefiles/common.mk
 
